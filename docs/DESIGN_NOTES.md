@@ -1,8 +1,5 @@
 # Design Notes
 
-## Why MySQL?
-The lectures use MySQL examples for SQL, so this practice project uses MySQL rather than introducing a different relational database engine.
-
 ## Why SQL for the core data?
 Members, memberships, classes, trainers, bookings and payments have clear relationships and require data integrity. Primary keys, foreign keys, UNIQUE constraints and CHECK constraints are therefore used.
 
